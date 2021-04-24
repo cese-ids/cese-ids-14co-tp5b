@@ -29,10 +29,14 @@ extern "C" {
 
 /*=====[Definitions of public data types]====================================*/
 
+/**
+ * @brief Estructura con los datos de cada alumno.
+ * 
+ */
 typedef struct alumno_s {
-    char apellidos[30];
-    char nombres[30];
-    char documento[11];
+    char apellidos[30]; /**< Apellido del alumno*/
+    char nombres[30];   /**<Nombres del alumno*/
+    char documento[11]; /**<DNI del alumno*/
 } const * alumno_t;
 
 /*=====[Definitions of public global variables]==============================*/
